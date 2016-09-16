@@ -20,3 +20,14 @@
     @include span-columns($sidebar-columns);
   }
 }
+//Bourbon clear fix
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+
+
