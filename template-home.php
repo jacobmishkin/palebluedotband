@@ -6,5 +6,5 @@
 
 <?php while (have_posts()) : the_post(); ?>
   <?php get_template_part('templates/page', 'header'); ?>
-    <?php get_template_part('templates/modules/module', 'video-banner'); ?>
+  <?php get_template_part('templates/modules/module', 'music-player'); ?>
 <?php endwhile; ?>
