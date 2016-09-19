@@ -2,9 +2,15 @@
 .home .page-header {
     position: absolute;
 }
+.container {
+  max-width: none;
+}
+
 
 .video-banner {
   position: relative;
+
+
 
   video {
     position: relative;
