@@ -1,0 +1,23 @@
+.module-media {
+
+	.media-title {
+		text-align: center;
+
+		h2 {
+			font-size: 3em;
+			border-bottom: 1px solid $black;
+			padding-bottom: .2em;
+			display: inline-block;
+		}
+	}
+
+	.media-player {
+		margin: 1em;
+	}
+
+	iframe {
+		min-width: 100%;
+		height: 300px; 
+	}
+
+}

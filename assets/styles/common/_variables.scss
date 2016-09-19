@@ -1,6 +1,8 @@
 // Typography
-$base-font-family: helvetica;
-$heading-font-family: $base-font-family;
+$base-font-family: sans serif;
+$heading-font-family: 'REIS-regular', $base-font-family;
+
+
 
 $font-weight-light: 300;
 $font-weight-normal: 400;
@@ -30,6 +32,9 @@ $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$black: #000;
+$white: #fff;
+
 
 // Font Colors
 $base-font-color: $dark-gray;
