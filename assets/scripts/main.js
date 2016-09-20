@@ -112,7 +112,7 @@ $(window).on('load, resize', function mobileView() {
  
   var viewportWidth = $(window).width();
 
-  if (viewportWidth < 430) {
+  if (viewportWidth < 400) {
     $('.video').removeClass("video").addClass('video-moble');
     $('.sub-header').removeClass('sub-header').addClass('sub-header-mobile');
   }
