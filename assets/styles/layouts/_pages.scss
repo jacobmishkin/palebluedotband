@@ -1,3 +1,48 @@
+//sticky footer
 .wrap {
 		min-height: calc(91vh - 69px);
 	}
+.bio {
+
+	.container {
+		max-width: 1170px;
+	}
+
+	.main {
+	margin: 0 auto;
+	padding: 1em;
+}
+	.page-header {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 4em
+	}
+}
+
+//contact
+.nf-form-title {
+	display: none;
+}
+.page-header {
+	text-align: center;
+
+		h1 {
+			font-size: 4em;
+		}
+}
+
+
+
+//music player
+.music {
+
+	.main {
+		padding: 0 1em;
+	}
+
+	.wolf-jplayer-playlist div.jp-audio .jp-logo {
+		width: 168px;
+	}
+}
