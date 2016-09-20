@@ -10,12 +10,24 @@
 .video-banner {
   position: relative;
 
-  video {
+  .video {
     position: relative;
     width: 100% !important;
     height: 100% important;
     z-index: 1;
   }
+
+  .video-moble {
+    display: none;
+  }
+
+  .sub-header-mobile {
+    position: relative;
+    text-align: center;
+    padding-top: 2em;
+    background-color: whitesmoke;
+  }
+
   .sub-header { 
     position: absolute;
     z-index: 99999;
