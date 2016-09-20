@@ -1,9 +1,11 @@
 .module-tour {
+	margin-top: 2em;
+
 	.container {
 		max-width: 1170px;
 	}
 
-	background: rgba(0,0,0,0.8);
+	background: $milk;
 	padding-bottom: 2em;
 	margin: 0 -9999rem;
 	padding: 0.25rem 9999rem;
@@ -15,10 +17,9 @@
 			text-align: center;
 
 			h2 {
-				color: $white;
+				color: $black;
 				font-size: 3em;
 				display: inline-block;
-				border-bottom: 1px solid $light-gray;
 				padding-bottom: .3em;
 			}
 		}
@@ -30,11 +31,11 @@
 	.list {
 		margin-right: 1em;
 		display: table-cell;
-		color: $white;
+		color: $black;;
 		}
 	}
 
 	.table-header {
-		color: $white;
+		color: $black;
 	}
 }

@@ -22,6 +22,11 @@
 }
 
 //contact
+.contact {
+	container {
+		max-width: 1170px;
+	}
+	
 .nf-form-title {
 	display: none;
 }
@@ -31,8 +36,8 @@
 		h1 {
 			font-size: 4em;
 		}
+	}
 }
-
 
 
 //music player
