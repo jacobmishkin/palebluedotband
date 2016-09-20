@@ -1,10 +1,10 @@
 <section class="module module-gallery">
 	<div class="container">
-		<h2>Photos</h2>
-		<div class="grid">
-			<div class="grid-item"></div>
-			<div class="grid-item grid-item--width2"></div>
-			<div class="grid-item grid-item--height2"></div>
+		<div class="gallery-title">
+			<h2>Photos</h2>
+		</div>
+		<div class="gallery-wrap">
+			<?php echo do_shortcode("[huge_it_gallery id='2']"); ?>
 		</div>
 	</div>
 </section>

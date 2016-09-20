@@ -1,16 +1,14 @@
 //Video styles and logo
 .home .page-header {
     position: absolute;
+    left: -999999px;
 }
 .container {
   max-width: none;
 }
 
-
 .video-banner {
   position: relative;
-
-
 
   video {
     position: relative;

@@ -1,5 +1,27 @@
-<footer class="content-info">
-  <div class="container">
-    <?php dynamic_sidebar('sidebar-footer'); ?>
-  </div>
+<footer class="footer" role="contentinfo">
+	<div class="footer-logo">
+		<img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
+	</div>
+	<ul>
+		<li><a href="javascript:void(0)">About</a></li>
+		<li><a href="javascript:void(0)">Contact</a></li>
+		<li><a href="javascript:void(0)">Shows</a></li>
+	</ul>
+	<div class="footer-secondary-links">
+		<ul>
+			<li><a href="javascript:void(0)">Terms and Conditions</a></li>
+			<li><a href="javascript:void(0)">Privacy Policy</a></li>
+		</ul>
+		<ul class="footer-social">
+			<li><a href="https://www.facebook.com/PalebluedotbandVA/?hc_ref=SEARCH&fref=nf">
+				<img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
+			</a></li>
+			<li><a href="javascript:void(0)">
+				<img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
+			</a></li>
+			<li><a href="https://www.youtube.com/channel/UC-525xofZnQIieDZDjUkccQ">
+				<img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
+			</a></li>
+		</ul>
+	</div>
 </footer>

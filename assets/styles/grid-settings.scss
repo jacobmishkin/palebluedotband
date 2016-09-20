@@ -20,6 +20,7 @@ $small-screen: 480px;
 $medium-screen: 620px;
 $md-breakpoint: 768px;
 $large-screen: 955px;
+$container-screen: 1170px;
 $wide-screen: 1200px;
 
 $small-screen-up: new-breakpoint(min-width $small-screen);
