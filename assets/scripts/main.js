@@ -108,6 +108,7 @@ $(document).ready(function() {
   });
 }); 
 
+//video-banner mobile 
 $(window).on('load, resize', function mobileView() {
  
   var viewportWidth = $(window).width();
@@ -117,8 +118,5 @@ $(window).on('load, resize', function mobileView() {
     $('.sub-header').removeClass('sub-header').addClass('sub-header-mobile');
   }
 });
-
-
-
 
 })(jQuery); // Fully reference jQuery after this point.

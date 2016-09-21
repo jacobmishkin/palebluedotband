@@ -1,0 +1,28 @@
+.module-banner {
+  height: 14em;
+  text-align: center;
+  width: 100%;
+  background-color: #f6f6f6;
+
+
+
+  .slide {
+    height: 14em;
+  }
+
+  .banner-text {
+    margin-top: 5em;
+  }
+
+  .testimonials {
+    padding-top: 4em;
+
+    p {
+      font-size: 24px;
+      color: $white;
+    }
+    span  {
+      color: $white;
+    }
+  }
+}
