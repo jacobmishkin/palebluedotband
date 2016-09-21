@@ -1,0 +1,30 @@
+.module-links {
+	background-color: #463f3f;
+	height: 150px;
+
+	.container {
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.links {
+		text-align: center;
+
+		li {
+			padding-top: 2em;
+			display: inline-block;
+
+			img {
+				width: auto;
+				height: 36px;
+			}
+		}
+	}
+
+	@media screen and (min-width: 570px) {
+			.links {
+				padding-top: 2em;
+			}
+	}
+}
