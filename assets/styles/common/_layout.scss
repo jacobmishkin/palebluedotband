@@ -1,15 +1,5 @@
 // wraps and rows
 // Base structure
-.container {
-	 @include outer-container;
-   .main,
-   .sidebar {
-    
-     @include row;
-   }
- }
- 
-
  //Bourbon clear fix
  @mixin clearfix {
    &::after {

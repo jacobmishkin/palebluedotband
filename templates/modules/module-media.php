@@ -1,7 +1,7 @@
 <section class="modules module-media">
 	<div class="container">
 		<div class="media-wrapper">
-			<div class="media">
+			<div class="media-box">
 				<div class="media-title">
 					<h2>music</h2>
 				</div>
@@ -9,7 +9,7 @@
 					<?php echo do_shortcode('[wolf_jplayer_playlist id="1"]'); ?>
 				</div>
 			</div>
-			<div class="media">
+			<div class="media-box">
 				<div class="media-title">
 					<h2>video</h2>
 				</div>
