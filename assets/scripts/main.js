@@ -111,12 +111,22 @@ $(document).ready(function() {
 //video-banner mobile 
 $(window).on('load, resize', function mobileView() {
  
-  var viewportWidth = $(window).width();
+  var pbd_viewportWidth = $(window).width();
 
-  if (viewportWidth < 400) {
-    $('.video').removeClass("video").addClass('video-moble');
+  if (pbd_viewportWidth < 400) {
+    $('.video').remove();
     $('.sub-header').removeClass('sub-header').addClass('sub-header-mobile');
   }
 });
+
+//video overlay box
+
+$('.video-box').on('click', function(){
+  $('.video-overlay').remove();
+  $('.media-video').append('<iframe src="https://www.youtube.com/embed/U08L3Vs95jQ" frameborder="0" allowfullscreen></iframe>');
+
+});
+
+
 
 })(jQuery); // Fully reference jQuery after this point.

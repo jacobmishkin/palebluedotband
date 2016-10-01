@@ -4,10 +4,13 @@
     $image = get_field('header_sub_title');
     $poster = get_field('poster');
     ?>
-    <video muted="true" poster="<?php echo $poster; ?>" autoplay="false" loop class="video">
+    <video preload="metadata" muted="true" poster="<?php echo $poster; ?>" autoplay="false" loop class="video">
       <source src="<?php echo $source; ?>" type="video/mp4">
     </video>
     <div class="sub-header">
       <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
     </div>
-  </section>
+  </section> 
+
+
+

@@ -13,9 +13,11 @@
 				<div class="media-title">
 					<h2>video</h2>
 				</div>
-				<div class="media-player">
+				<div class="media-player media-video">
 					<span class="video-wrap">
-						<iframe src="https://www.youtube.com/embed/U08L3Vs95jQ" frameborder="0" allowfullscreen></iframe>
+						<div class="video-box">
+						<img class="video-overlay" src="<?= site_url()?>/wp-content/uploads/2016/09/video-image.png" alt="pbd">
+						</div>
 					</span>
 				</div>
 			</div>

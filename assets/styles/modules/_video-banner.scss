@@ -17,10 +17,6 @@
     z-index: 1;
   }
 
-  .video-moble {
-    display: none;
-  }
-
   .sub-header-mobile {
     position: relative;
     text-align: center;
@@ -31,9 +27,8 @@
   .sub-header { 
     position: absolute;
     z-index: 99999;
-    top: 50%;
-    left: 50%;
+    bottom: 0;
+    right: 0;
     margin: auto;
-    transform: translate(-50%, -50%);
   }
 }
