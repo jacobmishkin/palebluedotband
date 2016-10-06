@@ -1,7 +1,7 @@
 <footer class="footer-2" role="contentinfo">
 	<div class="footer-logo">
 		<a href="<?php echo site_url(); ?>" class="logo">
-			<img src="http://palebluedotband.dev/wp-content/uploads/2016/01/Pale-Blue-Dot-logo_white-small.png" alt="Logo image">
+			<img src="<?php echo site_url()?>/wp-content/uploads/2016/01/Pale-Blue-Dot-logo_white-small.png" alt="Logo image">
 		</a>
 	</div>
 	<nav class="nav-footer" role="navigation">

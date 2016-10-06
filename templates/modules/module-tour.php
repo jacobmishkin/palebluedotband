@@ -13,13 +13,16 @@
 							<th class="table-header">Venue</th>
 							<th class="table-header">Location</th>
 						</tr>
-						<?php while (have_rows( 'tour_dates' ) ) : the_row();
+									
+						<?php	while (have_rows( 'tour_dates' ) ) : the_row();
 								//vars
+							
 								$tour_date = get_sub_field( 'tour_date' );
 								$tour_venue = get_sub_field( 'tour_venue' );
 								$tour_location = get_sub_field( 'tour_location' );
+								
 						?>
-						<tr>
+						<tr class="showList">
 							<td class="list"><?= $tour_date; ?></td>
 							<td class="list"><?= $tour_venue; ?></td>
 							<td class="list"><?= $tour_location; ?></td>
