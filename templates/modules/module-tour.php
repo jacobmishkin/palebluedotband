@@ -20,8 +20,8 @@
 								$tour_date = get_sub_field( 'tour_date' );
 								$tour_venue = get_sub_field( 'tour_venue' );
 								$tour_location = get_sub_field( 'tour_location' );
-								
-						?>
+							?>
+
 						<tr class="showList">
 							<td class="list"><?= $tour_date; ?></td>
 							<td class="list"><?= $tour_venue; ?></td>
@@ -30,8 +30,9 @@
 						<?php endwhile; ?>
 					</tbody>
 				</table>
-				
-				<?php endif;?>
+				<?php else: 
+					echo "<h5>Sorry, No Shows Scheduled, Please check back soon</h5>";
+							 endif;?>
 			</div>
 		</div>
 	</div>

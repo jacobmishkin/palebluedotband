@@ -102,12 +102,29 @@ function display_sidebar() {
  * Theme assets
  */
 function assets() {
-  wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
+
+  $css_path = get_template_directory_uri() . '/dist/styles/main.css';
+  $js_path = get_template_directory_uri() . '/dist/scripts/main.js';
+
+  wp_enqueue_style('sage-css', $css_path, false, null);
 
   if (is_single() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');
   }
 
-  wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
+  wp_register_script('sage-js', $js_path, ['jquery'], null, true);
+  
+
+  $js_data = array(
+      'date'       => $acf_thing,
+      'yesterday'  =>  $yesterday_date_tour 
+    );
+  // name of script | name of js object you want to name it | where is the data coming from?
+  // in js, you'd reference stuffl ike this:
+  // var thing = example_stuff
+  wp_localize_script( 'sage-js', 'calender', $js_data );
+
+  
+  wp_enqueue_script('sage-js');
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);

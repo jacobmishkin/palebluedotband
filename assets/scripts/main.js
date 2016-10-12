@@ -125,11 +125,6 @@ $('.video-box').on('click', function(){
   $('.media-video').append('<iframe src="https://www.youtube.com/embed/U08L3Vs95jQ" frameborder="0" allowfullscreen></iframe>');
 
 });
-
-//Tour Date after show date message
-var showList = $('.showList');
-
-
 })(jQuery); // Fully reference jQuery after this point.
 
 
