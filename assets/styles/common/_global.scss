@@ -8,3 +8,8 @@
 html, body {
 	overflow-x: hidden;
 }
+body{
+   overflow-y: scroll;
+   -webkit-overflow-scrolling: touch;
+   height:100%; 
+}

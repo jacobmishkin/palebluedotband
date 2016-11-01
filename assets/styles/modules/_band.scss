@@ -1,0 +1,33 @@
+.module-band {
+	text-align: center;
+	
+		.band-title {
+			margin-top: 1em;
+
+
+			h2 {
+			font-size: 3em;
+			text-align: center;
+		}
+	} 
+	.members {
+		h4 {
+			margin-bottom: 0;
+		}
+		li {
+			margin-bottom: 2em;
+				img {
+					width: 40%;
+				}
+		}
+	}
+@media screen and (min-width: 647px){
+		.members {
+				li {
+					display: inline-block;
+					width: 30%;
+				}
+		}
+}
+
+}
