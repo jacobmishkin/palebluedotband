@@ -26,3 +26,62 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+
+
+// Mobile content filters
+
+// if (wp_is_mobile() ) {
+  
+//   // echo '<div class=""></div>';
+//   // echo '<video class=""></video>';
+//    $thing  = 'shit';
+//    $thing .= 'stuff';
+//    echo $thing;
+// }
+
+
+// if ( ! wp_is_mobile() ) {
+//   // do things only on desktop
+// }
+
+function pbd_desktop_video_header() { ?>
+  
+  <section class="video-banner">
+      <?php
+      $source = get_field('video_header');
+      $image = get_field('header_sub_title');
+      $poster = get_field('poster');
+      ?>
+      
+      <video preload="metadata" muted="true" autoplay="false" loop class="video">
+        <source src="<?php echo $source; ?>" type="video/mp4">
+      </video>
+      <div class="sub-header">
+        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+      </div>
+  </section> 
+
+<?php
+}
+add_action( 'pbd_video_header', 'pbd_desktop_video_header' );
+
+
+function pbd_mobile_header() { 
+    $header_image = get_field('header_image');
+    $header_logo  = get_field( 'header_logo' );
+
+  ?>
+  <section class="mobile-header">
+    <div class="mobile-wrapper">
+      <div class="pbd-background">
+        <img class="pbd-mobile-logo" src="<?=  $header_image; ?>">
+      </div>
+    </div>
+  </section>
+  
+
+<?php 
+}
+
+add_action( 'pbd_mobile_header', 'pbd_mobile_header' );

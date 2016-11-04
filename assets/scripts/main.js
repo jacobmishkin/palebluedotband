@@ -108,16 +108,6 @@ $(document).ready(function() {
   });
 }); 
 
-//video-banner mobile 
-$(window).on('load, resize', function mobileView() {
- 
-  var pbd_viewportWidth = $(window).width();
-
-  if (pbd_viewportWidth < 400) {
-    $('.video').remove();
-    $('.sub-header').removeClass('sub-header').addClass('sub-header-mobile');
-  }
-});
 
 //YouTube overlay box
 $('.video-box').on('click', function(){
