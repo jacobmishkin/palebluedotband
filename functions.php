@@ -28,23 +28,6 @@ foreach ($sage_includes as $file) {
 unset($file, $filepath);
 
 
-
-// Mobile content filters
-
-// if (wp_is_mobile() ) {
-  
-//   // echo '<div class=""></div>';
-//   // echo '<video class=""></video>';
-//    $thing  = 'shit';
-//    $thing .= 'stuff';
-//    echo $thing;
-// }
-
-
-// if ( ! wp_is_mobile() ) {
-//   // do things only on desktop
-// }
-
 function pbd_desktop_video_header() { ?>
   
   <section class="video-banner">
