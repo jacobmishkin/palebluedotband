@@ -5,6 +5,5 @@
 		</div>
 			<?php echo do_shortcode("[huge_it_gallery id='2']"); ?>
 		</div>
-	</div>
 </section>
 

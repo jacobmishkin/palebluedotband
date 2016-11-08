@@ -9,13 +9,20 @@
   "dependencies": {
     "bourbon": "~4.2.6",
     "neat": "~1.7.2",
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "normalize.css#~3.0.3",
+    "font-awesome": "^4.7.0"
   },
   "overrides": {
     "bourbon": {
       "main": [
         "./app/assets/stylesheets/_bourbon.scss",
         "../../assets/styles/grid-settings.scss"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/*"
       ]
     }
   }

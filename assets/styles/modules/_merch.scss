@@ -1,0 +1,72 @@
+.module-merch {
+	background-color: #c74735;
+	color: $milk;
+
+	.pbd-merch-wrapper {
+		text-align: center;
+		
+	.pbd-action-text {
+		display: inline-block;
+		vertical-align: middle;
+		padding: 1em;
+
+
+		h2 {
+			font-size: 2em;
+			margin-bottom: .3em;
+		}
+	}
+
+	.btn {
+		display: inline-block;
+		color: $milk;
+		margin-bottom: 2em;
+		vertical-align: middle;
+
+		.pbd-merch-button {
+			position: relative;
+			padding: .5em 1.5em;
+			border: 2px solid $milk;
+			overflow: hidden;
+			font-weight: 700;
+
+
+			.fa-shopping-cart {
+			 	padding-right: 1em;
+			}
+
+		}
+
+
+		@media screen and (min-width: 450px) {
+			
+				.pbd-merch-button {
+					padding: .5em 3em;
+					font-weight: 300;
+				}
+
+				.fa-shopping-cart {
+				position: absolute;
+				top: 10px;
+				left: -30%;
+				transition: .4s;
+		}
+
+		&:focus, 
+		&:hover {
+				.fa-shopping-cart {
+					left: 10%;
+					}
+				}
+			}
+		}
+	@media screen and (min-width: 585px) {
+			.pbd-action-text {
+				padding: 3em 3em 3em 0;
+			}
+			.btn {
+				margin-bottom: 0;
+				}	
+		}	
+	}
+}

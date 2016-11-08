@@ -5,6 +5,7 @@
 @import "../../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
 @import "grid-settings.scss";
 @import "../../bower_components/neat/app/assets/stylesheets/_neat.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
 @import "common/mixins";
@@ -30,3 +31,4 @@
 @import "modules/banner";
 @import "modules/links";
 @import "modules/band";
+@import "modules/merch";
