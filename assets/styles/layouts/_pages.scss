@@ -97,21 +97,20 @@
 		text-align: center;
 
 		h1 {
-			color: white;
+			color: $milk;
 			font-size: 3em;
 		}
 	}
 
 	.gallery-img-content {
-			margin-left: 4em;
-		}
+			margin-left: 1.3em;
+			text-align: center;
+					}
 
 	@media screen and (min-width: 620px) {
-		.content .sidebar-primary .main {
-			display: none;
-		}
 		.gallery-img-content {
 			margin-left: 0;
+			text-align: center;
 		}
 	}
 }
